@@ -1,0 +1,97 @@
+header {
+  position: relative;
+}
+
+header div {
+  padding-top: 150px;
+}
+
+header div h1 {
+  font-size: 75px;
+}
+
+header div p {
+  width: 600px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+header img {
+  position: absolute;
+  z-index: -1;
+  width: 1630px;
+  right: -50%;
+  top: -20px;
+}
+
+header div a {
+  padding: 20px;
+  display: block;
+  margin-top: 70px;
+  width: 170px;
+  border-radius: 10px;
+  color: #eee;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+header div a {
+  border: 1px solid blue;
+  color: blue;
+}
+
+header div a:hover {
+  background: blue;
+  color: #eee;
+}
+
+@media screen and (max-width: 1600px) {
+  header img {
+    width: 1230px;
+    right: -50%;
+    top: -20px;
+  }
+}
+
+@media screen and (max-width: 1380px) {
+  header img {
+    right: -66%;
+    top: -20px;
+  }
+
+  header div {
+    padding-top: 100px;
+  }
+  header div h1 {
+    font-size: 55px;
+  }
+
+  header div p {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  header img {
+    width: 730px;
+    right: -50%;
+    top: 520px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+    header img {
+    width: 900px;
+    right: -50%;
+    top: 320px;
+  }
+
+  header div h1 {
+    font-size: 55px;
+  }
+
+  header div p {
+    width: 400px;
+  }
+}

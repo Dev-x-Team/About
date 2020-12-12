@@ -1,0 +1,8 @@
+type section {
+  title: String!
+  desc: [String!]
+}
+
+type Query {
+  allSections: [section!]
+}

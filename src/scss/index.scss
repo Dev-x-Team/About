@@ -1,0 +1,107 @@
+// Fonts
+
+// Lato
+@import url(https://fonts.googleapis.com/css?family=Lato&display=swap);
+
+// Fira Code
+@font-face {
+  font-family: Fira Code;
+  src: url(../assets/fonts/fira-code.ttf);
+}
+
+// Staatliches
+@font-face {
+  font-family: Staat;
+  src: url(../assets/fonts/staatliches.ttf);
+}
+
+// DidactGothic
+@font-face {
+  font-family: DG;
+  src: url(../assets/fonts/didactgothic.ttf);
+}
+
+// Lovelo
+@font-face {
+  font-family: Lovelo;
+  src: url(../assets/fonts/lovelo.otf);
+}
+
+// Dubai
+@font-face {
+  font-family: DF;
+  src: url(../assets/fonts/df.otf);
+}
+
+// Rex
+@font-face {
+  font-family: Rex;
+  src: url(../assets/fonts/rex.otf);
+}
+
+// Mont
+@font-face {
+  font-family: Mont;
+  src: url(../assets/fonts/mont.otf);
+}
+
+// Maven Pro
+@font-face {
+  font-family: MP;
+  src: url(../assets/fonts/maven-pro.ttf);
+}
+
+// Font awesome
+@import "~@fortawesome/fontawesome-free/css/fontawesome.css";
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+body {
+  margin: 0;
+  padding: 0px;
+  font-family: Lato, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  padding-bottom: 20px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+body * {
+  transition: all 500ms ease-in-out;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+main {
+  padding-top: 100px;
+}
+
+h2 {
+  font-size: 45px;
+  margin-bottom: 120px;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: Rex;
+  color: rgb(12, 0, 116);
+  transition: all 500ms ease-in-out;
+}
+
+h4 {
+  font-family: MP;
+}
+
+@import "card.scss";
+@import "header.scss";
+@import "nav.scss";
+@import "services.scss";
+@import "small.scss";

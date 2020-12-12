@@ -1,0 +1,65 @@
+.pack p {
+  font-family: DF;
+}
+
+.copy {
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  padding-top: 100px;
+}
+
+.copy a {
+  color: rgb(73, 73, 73);
+  border-radius: 10px;
+  transition: rgba(0, 0, 0, 0.25) 0.25s ease-in;
+  transition-property: rgba(0, 0, 0, 0.25);
+  transition-duration: 0.25s;
+  transition-timing-function: ease-in;
+  transition-delay: 0s;
+  flex-direction: column;
+}
+
+.copy a:hover,
+.copy a:focus,
+.copy a:active {
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.and {
+  font-family: Lato, sans-serif;
+}
+
+.abde {
+  font-family: Rex;
+}
+
+.nfp {
+  font-size: 30px;
+  width: 70%;
+  margin: 120px auto;
+  text-align: center;
+}
+
+.con {
+  padding-top: 20px;
+}
+
+.con a {
+
+}
+
+.dev {
+  border-right: 1px solid #f0f0f0;
+  padding-right: 10px;
+}
+
+.gh {
+  padding-left: 10px;
+}
