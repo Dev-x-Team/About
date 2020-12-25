@@ -7,7 +7,7 @@ export default class DEVX extends React.Component {
     return (
       <div className="card">
         <a href={URLs.devxURL}>
-          <img src={brand} alt="scode" width="200" />
+          <img src={brand} alt="scode" />
         </a>
       </div>
     );

@@ -28,12 +28,11 @@ import xcode from "./editor/xcode.svg";
 import api from "./api.png";
 import blog from "./blog.png";
 import codep from "./code+.png";
-import dm from "./dm.png";
-import ds from "./ds.png";
+import dm from "./dm.svg";
 import xp from "./xp.png";
-import brand from "./coverx.png";
+import brand from "./devx.svg";
 import dg from "./dg.png";
-import dcode from "./dcode.png";
+import cyper from "./cyper.svg";
 import mshop from "./mshop.png";
 import eh from './eh.svg';
 
@@ -64,11 +63,10 @@ export {
   blog,
   codep,
   dm,
-  ds,
   xp,
   brand,
   dg,
-  dcode,
+  cyper,
   mshop,
   dev,
   eh

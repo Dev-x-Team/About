@@ -4,7 +4,6 @@ import Planet from "./Planet";
 import S1 from "./tools/services/s1";
 import S2 from "./tools/services/s2";
 import S3 from "./tools/services/s3";
-import TB from "./Table";
 import FO from "./tools/FadeObject";
 import Cards from "./tools/cards";
 
@@ -38,10 +37,6 @@ const Main = () => {
 
         <section className="cen">
           <Cards />
-        </section>
-
-        <section>
-          <TB />
         </section>
       </main>
     </React.Fragment>

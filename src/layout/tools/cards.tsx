@@ -6,7 +6,7 @@ import DG from "./services/static/dg";
 import DM from "./services/static/dm";
 import DS from "./services/static/eh";
 import XP from "./services/static/xp";
-import DCode from "./services/static/dcode";
+import Cypex from "./services/static/cypex";
 import Mshop from "./services/static/mshop";
 import FO from "./FadeObject";
 
@@ -17,22 +17,18 @@ export default class Cards extends React.Component {
         <div className="grid">
           <div className="cen">
             <XP />
-            <Blog />
           </div>
           <div>
             <DM />
-            <DG />
           </div>
           <div>
-            <API />
             <DS />
           </div>
           <div>
-            <DEVX />
-            <DCode />
+            <Cypex />
           </div>
           <div>
-            <Mshop />
+            <DEVX />
           </div>
         </div>
       </FO>

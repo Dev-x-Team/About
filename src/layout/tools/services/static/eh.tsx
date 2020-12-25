@@ -7,8 +7,7 @@ export default class EH extends React.Component {
     return (
       <div className="card">
         <a href={URLs.elexhubURL}>
-        <img src={eh} alt="elexhub" width="200" />
-
+          <img src={eh} alt="elexhub" />
         </a>
       </div>
     );

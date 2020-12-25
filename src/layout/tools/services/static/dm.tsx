@@ -7,7 +7,7 @@ export default class DM extends React.Component {
     return (
       <div className="card">
         <a href={URLs.SubURLs.dmURL}>
-          <img src={dm} alt="dm" width="200" />
+          <img src={dm} alt="dm" />
         </a>
       </div>
     );

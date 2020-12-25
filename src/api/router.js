@@ -39,7 +39,7 @@ let URLs = {
     xpURL: "https://xporj-home.web.app",
     cpURL: "https://code-plus.web.app",
     codeURL: "https://dev-x-code.web.app",
-    dcodeURL: "https://devx-code.web.app",
+    cyperURL: "https://devx-code.web.app",
     dgamesURL: "https://dgames.web.app",
     mshopURL: "https://mshop-about.web.app",
   },
